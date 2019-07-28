@@ -1,5 +1,6 @@
 # WeatherWebApp
 Weather Web App with geolocation and use skycons. (HTML/SCSS/JS/jQuery)
+(Click on degree to switch unit)
 
 ### Screenshot 1 (Celsius):
 ![1](https://user-images.githubusercontent.com/41800726/62005976-f9485f00-b13a-11e9-89fe-0567de6fa6b3.png)
