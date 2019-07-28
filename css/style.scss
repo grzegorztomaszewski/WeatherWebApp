@@ -1,0 +1,55 @@
+$font-family: "Lato", sans-serif;
+$font-color: white;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(76, 170, 236), rgb(5, 62, 102));
+    font-family: $font-family;
+    color: $font-color;
+
+    #location, #temperature{
+        width: 30%;
+        height: 20vh;
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+    #title-app{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        font-size: 16px;
+    }
+    #temperature{
+        flex-direction: column;
+
+        #temperature-degree-section{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+            h2{
+                font-size: 40px;
+            }
+
+            span{
+                margin: 5%;
+                font-size: 40px;
+            }
+        }
+    }
+#temperature-description{
+    font-size:25px;
+}
+
+}
